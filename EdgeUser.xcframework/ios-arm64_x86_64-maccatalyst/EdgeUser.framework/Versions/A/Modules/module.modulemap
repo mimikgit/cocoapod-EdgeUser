@@ -1,0 +1,4 @@
+framework module EdgeUser {
+  header "EdgeUser-Swift.h"
+  requires objc
+}

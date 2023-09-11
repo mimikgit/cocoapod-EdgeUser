@@ -1,6 +1,6 @@
 # EdgeUser
 
-EdgeUser service library can help you interact with the following mimik services:
+EdgeUser client library can help you interact with the following mimik services:
 
  * `Profile`
  * `Peer`
@@ -53,7 +53,7 @@ Please see the in-code documentation in Xcode for more details.
 ## Requirements
 ```
 iOS 15.0+
-MIMIKEdgeClientCore
+EdgeCore
 ```
 
 ## Installation
@@ -69,8 +69,8 @@ use_frameworks!
 inhibit_all_warnings!
 
 def mimik
-  pod 'MIMIKEdgeClientCore', '14.0.0'
-  pod 'MIMIKEdgeClientUser', '14.0.0'
+  pod 'EdgeCore', '5.0.0'
+  pod 'EdgeUser', '5.0.0'
 end
 
 target '{target}' do
@@ -95,19 +95,20 @@ Visit this [tutorial](https://devdocs.mimik.com/tutorials/03-index) to learn mor
 
 ## mimik client and service libraries
 
-Don't forget to checkout all mimik client and service libraries [available on Github](https://github.com/search?q=cocoapod-MIMIKEdgeClient)
+Don't forget to checkout all mimik client and service libraries [available on Github](https://github.com/search?q=cocoapod-Edge)
 
 Direct links:
  
- * [MIMIKEdgeClientCore](https://github.com/mimikgit/cocoapod-MIMIKEdgeClientCore)
- * [MIMIKEdgeClientEngine](https://github.com/mimikgit/cocoapod-MIMIKEdgeClientEngine)
- * [MIMIKEdgeClientUser](https://github.com/mimikgit/cocoapod-MIMIKEdgeClientUser)
+ * [EdgeCore](https://github.com/mimikgit/cocoapod-EdgeCore)
+ * [EdgeEngine](https://github.com/mimikgit/cocoapod-EdgeEngine)
+ * [EdgeEngineTrial](https://github.com/mimikgit/cocoapod-EdgeEngineTrial)
+ * [EdgeUser](https://github.com/mimikgit/cocoapod-EdgeUser)
 
 ## Author
 
 mimik
 ```
-https://github.com/mimikgit/cocoapod-MIMIKEdgeClientUser
+https://developer.mimik.com
 ```
 
 ## License
