@@ -21,11 +21,12 @@ Pod::Spec.new do |s|
 
   s.author       = { "mimik" => "apps@mimik.com" }
   s.source       = { :git => "https://github.com/mimikgit/cocoapod-EdgeUser.git", :tag => "#{s.version}" }
+  s.swift_versions = '5.0'
 
   s.vendored_frameworks = "EdgeUser.xcframework"
 
   s.dependency 'EdgeCore', '~> 5.0.0'
-  s.dependency 'Alamofire', '~> 5.7.1'
+  s.dependency 'Alamofire', '~> 5.8.0'
   s.dependency 'SwiftyJSON', '~> 5.0.1'
 
   s.platform = 'ios', '15.0'
