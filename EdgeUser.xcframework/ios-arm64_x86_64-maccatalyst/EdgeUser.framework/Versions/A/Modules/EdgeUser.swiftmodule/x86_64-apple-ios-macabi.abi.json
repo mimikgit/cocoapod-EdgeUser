@@ -1964,18 +1964,18 @@
               {
                 "kind": "TypeNominal",
                 "name": "Result",
-                "printedName": "Swift.Result<[EdgeCore.EdgeClient.MIMIKFriend], Foundation.NSError>",
+                "printedName": "Swift.Result<[EdgeCore.EdgeClient.Friend], Foundation.NSError>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[EdgeCore.EdgeClient.MIMIKFriend]",
+                    "printedName": "[EdgeCore.EdgeClient.Friend]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "MIMIKFriend",
-                        "printedName": "EdgeCore.EdgeClient.MIMIKFriend",
-                        "usr": "s:8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC"
+                        "name": "Friend",
+                        "printedName": "EdgeCore.EdgeClient.Friend",
+                        "usr": "s:8EdgeCore0A6ClientC0A4UserE6FriendC"
                       }
                     ],
                     "usr": "s:Sa"
@@ -2003,8 +2003,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8EdgeCore0A6ClientC0A4UserE7friends7service13authorizations6ResultOySayAcDE11MIMIKFriendCGSo7NSErrorCGAC7ServiceC_AC13AuthorizationCtYaF",
-            "mangledName": "$s8EdgeCore0A6ClientC0A4UserE7friends7service13authorizations6ResultOySayAcDE11MIMIKFriendCGSo7NSErrorCGAC7ServiceC_AC13AuthorizationCtYaF",
+            "usr": "s:8EdgeCore0A6ClientC0A4UserE7friends7service13authorizations6ResultOySayAcDE6FriendCGSo7NSErrorCGAC7ServiceC_AC13AuthorizationCtYaF",
+            "mangledName": "$s8EdgeCore0A6ClientC0A4UserE7friends7service13authorizations6ResultOySayAcDE6FriendCGSo7NSErrorCGAC7ServiceC_AC13AuthorizationCtYaF",
             "moduleName": "EdgeUser",
             "declAttributes": [
               "Final",
@@ -2072,18 +2072,18 @@
               {
                 "kind": "TypeNominal",
                 "name": "Result",
-                "printedName": "Swift.Result<[EdgeCore.EdgeClient.MIMIKFriend], Foundation.NSError>",
+                "printedName": "Swift.Result<[EdgeCore.EdgeClient.Friend], Foundation.NSError>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[EdgeCore.EdgeClient.MIMIKFriend]",
+                    "printedName": "[EdgeCore.EdgeClient.Friend]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "MIMIKFriend",
-                        "printedName": "EdgeCore.EdgeClient.MIMIKFriend",
-                        "usr": "s:8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC"
+                        "name": "Friend",
+                        "printedName": "EdgeCore.EdgeClient.Friend",
+                        "usr": "s:8EdgeCore0A6ClientC0A4UserE6FriendC"
                       }
                     ],
                     "usr": "s:Sa"
@@ -2111,8 +2111,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8EdgeCore0A6ClientC0A4UserE22receivedFriendRequests7service13authorizations6ResultOySayAcDE11MIMIKFriendCGSo7NSErrorCGAC7ServiceC_AC13AuthorizationCtYaF",
-            "mangledName": "$s8EdgeCore0A6ClientC0A4UserE22receivedFriendRequests7service13authorizations6ResultOySayAcDE11MIMIKFriendCGSo7NSErrorCGAC7ServiceC_AC13AuthorizationCtYaF",
+            "usr": "s:8EdgeCore0A6ClientC0A4UserE22receivedFriendRequests7service13authorizations6ResultOySayAcDE0F0CGSo7NSErrorCGAC7ServiceC_AC13AuthorizationCtYaF",
+            "mangledName": "$s8EdgeCore0A6ClientC0A4UserE22receivedFriendRequests7service13authorizations6ResultOySayAcDE0F0CGSo7NSErrorCGAC7ServiceC_AC13AuthorizationCtYaF",
             "moduleName": "EdgeUser",
             "declAttributes": [
               "Final",
@@ -2180,18 +2180,18 @@
               {
                 "kind": "TypeNominal",
                 "name": "Result",
-                "printedName": "Swift.Result<[EdgeCore.EdgeClient.MIMIKFriend], Foundation.NSError>",
+                "printedName": "Swift.Result<[EdgeCore.EdgeClient.Friend], Foundation.NSError>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[EdgeCore.EdgeClient.MIMIKFriend]",
+                    "printedName": "[EdgeCore.EdgeClient.Friend]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "MIMIKFriend",
-                        "printedName": "EdgeCore.EdgeClient.MIMIKFriend",
-                        "usr": "s:8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC"
+                        "name": "Friend",
+                        "printedName": "EdgeCore.EdgeClient.Friend",
+                        "usr": "s:8EdgeCore0A6ClientC0A4UserE6FriendC"
                       }
                     ],
                     "usr": "s:Sa"
@@ -2219,8 +2219,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8EdgeCore0A6ClientC0A4UserE18sentFriendRequests7service13authorizations6ResultOySayAcDE11MIMIKFriendCGSo7NSErrorCGAC7ServiceC_AC13AuthorizationCtYaF",
-            "mangledName": "$s8EdgeCore0A6ClientC0A4UserE18sentFriendRequests7service13authorizations6ResultOySayAcDE11MIMIKFriendCGSo7NSErrorCGAC7ServiceC_AC13AuthorizationCtYaF",
+            "usr": "s:8EdgeCore0A6ClientC0A4UserE18sentFriendRequests7service13authorizations6ResultOySayAcDE0F0CGSo7NSErrorCGAC7ServiceC_AC13AuthorizationCtYaF",
+            "mangledName": "$s8EdgeCore0A6ClientC0A4UserE18sentFriendRequests7service13authorizations6ResultOySayAcDE0F0CGSo7NSErrorCGAC7ServiceC_AC13AuthorizationCtYaF",
             "moduleName": "EdgeUser",
             "declAttributes": [
               "Final",
@@ -15082,8 +15082,8 @@
           },
           {
             "kind": "TypeDecl",
-            "name": "MIMIKFriend",
-            "printedName": "MIMIKFriend",
+            "name": "Friend",
+            "printedName": "Friend",
             "children": [
               {
                 "kind": "Var",
@@ -15106,8 +15106,8 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC4nameSSSgvp",
-                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC4nameSSSgvp",
+                "usr": "s:8EdgeCore0A6ClientC0A4UserE6FriendC4nameSSSgvp",
+                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE6FriendC4nameSSSgvp",
                 "moduleName": "EdgeUser",
                 "declAttributes": [
                   "HasInitialValue",
@@ -15138,8 +15138,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC4nameSSSgvg",
-                    "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC4nameSSSgvg",
+                    "usr": "s:8EdgeCore0A6ClientC0A4UserE6FriendC4nameSSSgvg",
+                    "mangledName": "$s8EdgeCore0A6ClientC0A4UserE6FriendC4nameSSSgvg",
                     "moduleName": "EdgeUser",
                     "implicit": true,
                     "declAttributes": [
@@ -15173,8 +15173,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC4nameSSSgvs",
-                    "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC4nameSSSgvs",
+                    "usr": "s:8EdgeCore0A6ClientC0A4UserE6FriendC4nameSSSgvs",
+                    "mangledName": "$s8EdgeCore0A6ClientC0A4UserE6FriendC4nameSSSgvs",
                     "moduleName": "EdgeUser",
                     "implicit": true,
                     "declAttributes": [
@@ -15194,8 +15194,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC4nameSSSgvM",
-                    "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC4nameSSSgvM",
+                    "usr": "s:8EdgeCore0A6ClientC0A4UserE6FriendC4nameSSSgvM",
+                    "mangledName": "$s8EdgeCore0A6ClientC0A4UserE6FriendC4nameSSSgvM",
                     "moduleName": "EdgeUser",
                     "implicit": true,
                     "accessorKind": "_modify"
@@ -15223,8 +15223,8 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC5emailSSSgvp",
-                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC5emailSSSgvp",
+                "usr": "s:8EdgeCore0A6ClientC0A4UserE6FriendC5emailSSSgvp",
+                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE6FriendC5emailSSSgvp",
                 "moduleName": "EdgeUser",
                 "declAttributes": [
                   "HasInitialValue",
@@ -15255,8 +15255,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC5emailSSSgvg",
-                    "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC5emailSSSgvg",
+                    "usr": "s:8EdgeCore0A6ClientC0A4UserE6FriendC5emailSSSgvg",
+                    "mangledName": "$s8EdgeCore0A6ClientC0A4UserE6FriendC5emailSSSgvg",
                     "moduleName": "EdgeUser",
                     "implicit": true,
                     "declAttributes": [
@@ -15290,8 +15290,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC5emailSSSgvs",
-                    "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC5emailSSSgvs",
+                    "usr": "s:8EdgeCore0A6ClientC0A4UserE6FriendC5emailSSSgvs",
+                    "mangledName": "$s8EdgeCore0A6ClientC0A4UserE6FriendC5emailSSSgvs",
                     "moduleName": "EdgeUser",
                     "implicit": true,
                     "declAttributes": [
@@ -15311,8 +15311,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC5emailSSSgvM",
-                    "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC5emailSSSgvM",
+                    "usr": "s:8EdgeCore0A6ClientC0A4UserE6FriendC5emailSSSgvM",
+                    "mangledName": "$s8EdgeCore0A6ClientC0A4UserE6FriendC5emailSSSgvM",
                     "moduleName": "EdgeUser",
                     "implicit": true,
                     "accessorKind": "_modify"
@@ -15340,8 +15340,8 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC2idSSSgvp",
-                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC2idSSSgvp",
+                "usr": "s:8EdgeCore0A6ClientC0A4UserE6FriendC2idSSSgvp",
+                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE6FriendC2idSSSgvp",
                 "moduleName": "EdgeUser",
                 "declAttributes": [
                   "HasInitialValue",
@@ -15372,8 +15372,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC2idSSSgvg",
-                    "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC2idSSSgvg",
+                    "usr": "s:8EdgeCore0A6ClientC0A4UserE6FriendC2idSSSgvg",
+                    "mangledName": "$s8EdgeCore0A6ClientC0A4UserE6FriendC2idSSSgvg",
                     "moduleName": "EdgeUser",
                     "implicit": true,
                     "declAttributes": [
@@ -15407,8 +15407,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC2idSSSgvs",
-                    "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC2idSSSgvs",
+                    "usr": "s:8EdgeCore0A6ClientC0A4UserE6FriendC2idSSSgvs",
+                    "mangledName": "$s8EdgeCore0A6ClientC0A4UserE6FriendC2idSSSgvs",
                     "moduleName": "EdgeUser",
                     "implicit": true,
                     "declAttributes": [
@@ -15428,8 +15428,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC2idSSSgvM",
-                    "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC2idSSSgvM",
+                    "usr": "s:8EdgeCore0A6ClientC0A4UserE6FriendC2idSSSgvM",
+                    "mangledName": "$s8EdgeCore0A6ClientC0A4UserE6FriendC2idSSSgvM",
                     "moduleName": "EdgeUser",
                     "implicit": true,
                     "accessorKind": "_modify"
@@ -15457,8 +15457,8 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC9accountIdSSSgvp",
-                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC9accountIdSSSgvp",
+                "usr": "s:8EdgeCore0A6ClientC0A4UserE6FriendC9accountIdSSSgvp",
+                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE6FriendC9accountIdSSSgvp",
                 "moduleName": "EdgeUser",
                 "declAttributes": [
                   "HasInitialValue",
@@ -15489,8 +15489,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC9accountIdSSSgvg",
-                    "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC9accountIdSSSgvg",
+                    "usr": "s:8EdgeCore0A6ClientC0A4UserE6FriendC9accountIdSSSgvg",
+                    "mangledName": "$s8EdgeCore0A6ClientC0A4UserE6FriendC9accountIdSSSgvg",
                     "moduleName": "EdgeUser",
                     "implicit": true,
                     "declAttributes": [
@@ -15524,8 +15524,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC9accountIdSSSgvs",
-                    "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC9accountIdSSSgvs",
+                    "usr": "s:8EdgeCore0A6ClientC0A4UserE6FriendC9accountIdSSSgvs",
+                    "mangledName": "$s8EdgeCore0A6ClientC0A4UserE6FriendC9accountIdSSSgvs",
                     "moduleName": "EdgeUser",
                     "implicit": true,
                     "declAttributes": [
@@ -15545,8 +15545,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC9accountIdSSSgvM",
-                    "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC9accountIdSSSgvM",
+                    "usr": "s:8EdgeCore0A6ClientC0A4UserE6FriendC9accountIdSSSgvM",
+                    "mangledName": "$s8EdgeCore0A6ClientC0A4UserE6FriendC9accountIdSSSgvM",
                     "moduleName": "EdgeUser",
                     "implicit": true,
                     "accessorKind": "_modify"
@@ -15574,8 +15574,8 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC12thumbnailURLSSSgvp",
-                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC12thumbnailURLSSSgvp",
+                "usr": "s:8EdgeCore0A6ClientC0A4UserE6FriendC12thumbnailURLSSSgvp",
+                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE6FriendC12thumbnailURLSSSgvp",
                 "moduleName": "EdgeUser",
                 "declAttributes": [
                   "HasInitialValue",
@@ -15606,8 +15606,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC12thumbnailURLSSSgvg",
-                    "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC12thumbnailURLSSSgvg",
+                    "usr": "s:8EdgeCore0A6ClientC0A4UserE6FriendC12thumbnailURLSSSgvg",
+                    "mangledName": "$s8EdgeCore0A6ClientC0A4UserE6FriendC12thumbnailURLSSSgvg",
                     "moduleName": "EdgeUser",
                     "implicit": true,
                     "declAttributes": [
@@ -15641,8 +15641,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC12thumbnailURLSSSgvs",
-                    "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC12thumbnailURLSSSgvs",
+                    "usr": "s:8EdgeCore0A6ClientC0A4UserE6FriendC12thumbnailURLSSSgvs",
+                    "mangledName": "$s8EdgeCore0A6ClientC0A4UserE6FriendC12thumbnailURLSSSgvs",
                     "moduleName": "EdgeUser",
                     "implicit": true,
                     "declAttributes": [
@@ -15662,8 +15662,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC12thumbnailURLSSSgvM",
-                    "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC12thumbnailURLSSSgvM",
+                    "usr": "s:8EdgeCore0A6ClientC0A4UserE6FriendC12thumbnailURLSSSgvM",
+                    "mangledName": "$s8EdgeCore0A6ClientC0A4UserE6FriendC12thumbnailURLSSSgvM",
                     "moduleName": "EdgeUser",
                     "implicit": true,
                     "accessorKind": "_modify"
@@ -15677,9 +15677,9 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "MIMIKFriend",
-                    "printedName": "EdgeCore.EdgeClient.MIMIKFriend",
-                    "usr": "s:8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC"
+                    "name": "Friend",
+                    "printedName": "EdgeCore.EdgeClient.Friend",
+                    "usr": "s:8EdgeCore0A6ClientC0A4UserE6FriendC"
                   },
                   {
                     "kind": "TypeNominal",
@@ -15753,8 +15753,8 @@
                   }
                 ],
                 "declKind": "Constructor",
-                "usr": "s:8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC4name5email2id9accountId12thumbnailURLAFSSSg_A4Ltcfc",
-                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC4name5email2id9accountId12thumbnailURLAFSSSg_A4Ltcfc",
+                "usr": "s:8EdgeCore0A6ClientC0A4UserE6FriendC4name5email2id9accountId12thumbnailURLAFSSSg_A4Ltcfc",
+                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE6FriendC4name5email2id9accountId12thumbnailURLAFSSSg_A4Ltcfc",
                 "moduleName": "EdgeUser",
                 "declAttributes": [
                   "AccessControl"
@@ -15774,8 +15774,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC16mimikDescriptionSSyF",
-                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC16mimikDescriptionSSyF",
+                "usr": "s:8EdgeCore0A6ClientC0A4UserE6FriendC16mimikDescriptionSSyF",
+                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE6FriendC16mimikDescriptionSSyF",
                 "moduleName": "EdgeUser",
                 "declAttributes": [
                   "AccessControl"
@@ -15789,14 +15789,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "MIMIKFriend",
-                    "printedName": "EdgeCore.EdgeClient.MIMIKFriend",
-                    "usr": "s:8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC"
+                    "name": "Friend",
+                    "printedName": "EdgeCore.EdgeClient.Friend",
+                    "usr": "s:8EdgeCore0A6ClientC0A4UserE6FriendC"
                   }
                 ],
                 "declKind": "Constructor",
-                "usr": "s:8EdgeCore0A6ClientC0A4UserE11MIMIKFriendCAFycfc",
-                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11MIMIKFriendCAFycfc",
+                "usr": "s:8EdgeCore0A6ClientC0A4UserE6FriendCAFycfc",
+                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE6FriendCAFycfc",
                 "moduleName": "EdgeUser",
                 "overriding": true,
                 "implicit": true,
@@ -15810,8 +15810,8 @@
               }
             ],
             "declKind": "Class",
-            "usr": "s:8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC",
-            "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11MIMIKFriendC",
+            "usr": "s:8EdgeCore0A6ClientC0A4UserE6FriendC",
+            "mangledName": "$s8EdgeCore0A6ClientC0A4UserE6FriendC",
             "moduleName": "EdgeUser",
             "declAttributes": [
               "AccessControl",
@@ -21577,8 +21577,8 @@
           },
           {
             "kind": "TypeDecl",
-            "name": "MIMIKFriendState",
-            "printedName": "MIMIKFriendState",
+            "name": "FriendState",
+            "printedName": "FriendState",
             "children": [
               {
                 "kind": "Var",
@@ -21588,24 +21588,24 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(EdgeCore.EdgeClient.MIMIKFriendState.Type) -> EdgeCore.EdgeClient.MIMIKFriendState",
+                    "printedName": "(EdgeCore.EdgeClient.FriendState.Type) -> EdgeCore.EdgeClient.FriendState",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "MIMIKFriendState",
-                        "printedName": "EdgeCore.EdgeClient.MIMIKFriendState",
-                        "usr": "s:8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO"
+                        "name": "FriendState",
+                        "printedName": "EdgeCore.EdgeClient.FriendState",
+                        "usr": "s:8EdgeCore0A6ClientC0A4UserE11FriendStateO"
                       },
                       {
                         "kind": "TypeNominal",
                         "name": "Metatype",
-                        "printedName": "EdgeCore.EdgeClient.MIMIKFriendState.Type",
+                        "printedName": "EdgeCore.EdgeClient.FriendState.Type",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "MIMIKFriendState",
-                            "printedName": "EdgeCore.EdgeClient.MIMIKFriendState",
-                            "usr": "s:8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO"
+                            "name": "FriendState",
+                            "printedName": "EdgeCore.EdgeClient.FriendState",
+                            "usr": "s:8EdgeCore0A6ClientC0A4UserE11FriendStateO"
                           }
                         ]
                       }
@@ -21613,8 +21613,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO7unknownyA2FmF",
-                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO7unknownyA2FmF",
+                "usr": "s:8EdgeCore0A6ClientC0A4UserE11FriendStateO7unknownyA2FmF",
+                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11FriendStateO7unknownyA2FmF",
                 "moduleName": "EdgeUser"
               },
               {
@@ -21625,24 +21625,24 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(EdgeCore.EdgeClient.MIMIKFriendState.Type) -> EdgeCore.EdgeClient.MIMIKFriendState",
+                    "printedName": "(EdgeCore.EdgeClient.FriendState.Type) -> EdgeCore.EdgeClient.FriendState",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "MIMIKFriendState",
-                        "printedName": "EdgeCore.EdgeClient.MIMIKFriendState",
-                        "usr": "s:8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO"
+                        "name": "FriendState",
+                        "printedName": "EdgeCore.EdgeClient.FriendState",
+                        "usr": "s:8EdgeCore0A6ClientC0A4UserE11FriendStateO"
                       },
                       {
                         "kind": "TypeNominal",
                         "name": "Metatype",
-                        "printedName": "EdgeCore.EdgeClient.MIMIKFriendState.Type",
+                        "printedName": "EdgeCore.EdgeClient.FriendState.Type",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "MIMIKFriendState",
-                            "printedName": "EdgeCore.EdgeClient.MIMIKFriendState",
-                            "usr": "s:8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO"
+                            "name": "FriendState",
+                            "printedName": "EdgeCore.EdgeClient.FriendState",
+                            "usr": "s:8EdgeCore0A6ClientC0A4UserE11FriendStateO"
                           }
                         ]
                       }
@@ -21650,8 +21650,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO11currentListyA2FmF",
-                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO11currentListyA2FmF",
+                "usr": "s:8EdgeCore0A6ClientC0A4UserE11FriendStateO11currentListyA2FmF",
+                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11FriendStateO11currentListyA2FmF",
                 "moduleName": "EdgeUser",
                 "declAttributes": [
                   "RawDocComment"
@@ -21665,24 +21665,24 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(EdgeCore.EdgeClient.MIMIKFriendState.Type) -> EdgeCore.EdgeClient.MIMIKFriendState",
+                    "printedName": "(EdgeCore.EdgeClient.FriendState.Type) -> EdgeCore.EdgeClient.FriendState",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "MIMIKFriendState",
-                        "printedName": "EdgeCore.EdgeClient.MIMIKFriendState",
-                        "usr": "s:8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO"
+                        "name": "FriendState",
+                        "printedName": "EdgeCore.EdgeClient.FriendState",
+                        "usr": "s:8EdgeCore0A6ClientC0A4UserE11FriendStateO"
                       },
                       {
                         "kind": "TypeNominal",
                         "name": "Metatype",
-                        "printedName": "EdgeCore.EdgeClient.MIMIKFriendState.Type",
+                        "printedName": "EdgeCore.EdgeClient.FriendState.Type",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "MIMIKFriendState",
-                            "printedName": "EdgeCore.EdgeClient.MIMIKFriendState",
-                            "usr": "s:8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO"
+                            "name": "FriendState",
+                            "printedName": "EdgeCore.EdgeClient.FriendState",
+                            "usr": "s:8EdgeCore0A6ClientC0A4UserE11FriendStateO"
                           }
                         ]
                       }
@@ -21690,8 +21690,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO12incomingListyA2FmF",
-                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO12incomingListyA2FmF",
+                "usr": "s:8EdgeCore0A6ClientC0A4UserE11FriendStateO12incomingListyA2FmF",
+                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11FriendStateO12incomingListyA2FmF",
                 "moduleName": "EdgeUser",
                 "declAttributes": [
                   "RawDocComment"
@@ -21705,24 +21705,24 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(EdgeCore.EdgeClient.MIMIKFriendState.Type) -> EdgeCore.EdgeClient.MIMIKFriendState",
+                    "printedName": "(EdgeCore.EdgeClient.FriendState.Type) -> EdgeCore.EdgeClient.FriendState",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "MIMIKFriendState",
-                        "printedName": "EdgeCore.EdgeClient.MIMIKFriendState",
-                        "usr": "s:8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO"
+                        "name": "FriendState",
+                        "printedName": "EdgeCore.EdgeClient.FriendState",
+                        "usr": "s:8EdgeCore0A6ClientC0A4UserE11FriendStateO"
                       },
                       {
                         "kind": "TypeNominal",
                         "name": "Metatype",
-                        "printedName": "EdgeCore.EdgeClient.MIMIKFriendState.Type",
+                        "printedName": "EdgeCore.EdgeClient.FriendState.Type",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "MIMIKFriendState",
-                            "printedName": "EdgeCore.EdgeClient.MIMIKFriendState",
-                            "usr": "s:8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO"
+                            "name": "FriendState",
+                            "printedName": "EdgeCore.EdgeClient.FriendState",
+                            "usr": "s:8EdgeCore0A6ClientC0A4UserE11FriendStateO"
                           }
                         ]
                       }
@@ -21730,8 +21730,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO12outgoingListyA2FmF",
-                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO12outgoingListyA2FmF",
+                "usr": "s:8EdgeCore0A6ClientC0A4UserE11FriendStateO12outgoingListyA2FmF",
+                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11FriendStateO12outgoingListyA2FmF",
                 "moduleName": "EdgeUser",
                 "declAttributes": [
                   "RawDocComment"
@@ -21745,24 +21745,24 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(EdgeCore.EdgeClient.MIMIKFriendState.Type) -> EdgeCore.EdgeClient.MIMIKFriendState",
+                    "printedName": "(EdgeCore.EdgeClient.FriendState.Type) -> EdgeCore.EdgeClient.FriendState",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "MIMIKFriendState",
-                        "printedName": "EdgeCore.EdgeClient.MIMIKFriendState",
-                        "usr": "s:8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO"
+                        "name": "FriendState",
+                        "printedName": "EdgeCore.EdgeClient.FriendState",
+                        "usr": "s:8EdgeCore0A6ClientC0A4UserE11FriendStateO"
                       },
                       {
                         "kind": "TypeNominal",
                         "name": "Metatype",
-                        "printedName": "EdgeCore.EdgeClient.MIMIKFriendState.Type",
+                        "printedName": "EdgeCore.EdgeClient.FriendState.Type",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "MIMIKFriendState",
-                            "printedName": "EdgeCore.EdgeClient.MIMIKFriendState",
-                            "usr": "s:8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO"
+                            "name": "FriendState",
+                            "printedName": "EdgeCore.EdgeClient.FriendState",
+                            "usr": "s:8EdgeCore0A6ClientC0A4UserE11FriendStateO"
                           }
                         ]
                       }
@@ -21770,8 +21770,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO11yourAccountyA2FmF",
-                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO11yourAccountyA2FmF",
+                "usr": "s:8EdgeCore0A6ClientC0A4UserE11FriendStateO11yourAccountyA2FmF",
+                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11FriendStateO11yourAccountyA2FmF",
                 "moduleName": "EdgeUser",
                 "declAttributes": [
                   "RawDocComment"
@@ -21785,24 +21785,24 @@
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(EdgeCore.EdgeClient.MIMIKFriendState.Type) -> EdgeCore.EdgeClient.MIMIKFriendState",
+                    "printedName": "(EdgeCore.EdgeClient.FriendState.Type) -> EdgeCore.EdgeClient.FriendState",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "MIMIKFriendState",
-                        "printedName": "EdgeCore.EdgeClient.MIMIKFriendState",
-                        "usr": "s:8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO"
+                        "name": "FriendState",
+                        "printedName": "EdgeCore.EdgeClient.FriendState",
+                        "usr": "s:8EdgeCore0A6ClientC0A4UserE11FriendStateO"
                       },
                       {
                         "kind": "TypeNominal",
                         "name": "Metatype",
-                        "printedName": "EdgeCore.EdgeClient.MIMIKFriendState.Type",
+                        "printedName": "EdgeCore.EdgeClient.FriendState.Type",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "MIMIKFriendState",
-                            "printedName": "EdgeCore.EdgeClient.MIMIKFriendState",
-                            "usr": "s:8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO"
+                            "name": "FriendState",
+                            "printedName": "EdgeCore.EdgeClient.FriendState",
+                            "usr": "s:8EdgeCore0A6ClientC0A4UserE11FriendStateO"
                           }
                         ]
                       }
@@ -21810,8 +21810,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO9notListedyA2FmF",
-                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO9notListedyA2FmF",
+                "usr": "s:8EdgeCore0A6ClientC0A4UserE11FriendStateO9notListedyA2FmF",
+                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11FriendStateO9notListedyA2FmF",
                 "moduleName": "EdgeUser",
                 "declAttributes": [
                   "RawDocComment"
@@ -21830,20 +21830,20 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "MIMIKFriendState",
-                    "printedName": "EdgeCore.EdgeClient.MIMIKFriendState",
-                    "usr": "s:8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO"
+                    "name": "FriendState",
+                    "printedName": "EdgeCore.EdgeClient.FriendState",
+                    "usr": "s:8EdgeCore0A6ClientC0A4UserE11FriendStateO"
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "MIMIKFriendState",
-                    "printedName": "EdgeCore.EdgeClient.MIMIKFriendState",
-                    "usr": "s:8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO"
+                    "name": "FriendState",
+                    "printedName": "EdgeCore.EdgeClient.FriendState",
+                    "usr": "s:8EdgeCore0A6ClientC0A4UserE11FriendStateO"
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO2eeoiySbAF_AFtFZ",
-                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO2eeoiySbAF_AFtFZ",
+                "usr": "s:8EdgeCore0A6ClientC0A4UserE11FriendStateO2eeoiySbAF_AFtFZ",
+                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11FriendStateO2eeoiySbAF_AFtFZ",
                 "moduleName": "EdgeUser",
                 "static": true,
                 "implicit": true,
@@ -21862,8 +21862,8 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO9hashValueSivp",
-                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO9hashValueSivp",
+                "usr": "s:8EdgeCore0A6ClientC0A4UserE11FriendStateO9hashValueSivp",
+                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11FriendStateO9hashValueSivp",
                 "moduleName": "EdgeUser",
                 "implicit": true,
                 "accessors": [
@@ -21880,8 +21880,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO9hashValueSivg",
-                    "mangledName": "$s8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO9hashValueSivg",
+                    "usr": "s:8EdgeCore0A6ClientC0A4UserE11FriendStateO9hashValueSivg",
+                    "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11FriendStateO9hashValueSivg",
                     "moduleName": "EdgeUser",
                     "implicit": true,
                     "accessorKind": "get"
@@ -21907,16 +21907,16 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO4hash4intoys6HasherVz_tF",
-                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO4hash4intoys6HasherVz_tF",
+                "usr": "s:8EdgeCore0A6ClientC0A4UserE11FriendStateO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11FriendStateO4hash4intoys6HasherVz_tF",
                 "moduleName": "EdgeUser",
                 "implicit": true,
                 "funcSelfKind": "NonMutating"
               }
             ],
             "declKind": "Enum",
-            "usr": "s:8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO",
-            "mangledName": "$s8EdgeCore0A6ClientC0A4UserE16MIMIKFriendStateO",
+            "usr": "s:8EdgeCore0A6ClientC0A4UserE11FriendStateO",
+            "mangledName": "$s8EdgeCore0A6ClientC0A4UserE11FriendStateO",
             "moduleName": "EdgeUser",
             "declAttributes": [
               "AccessControl"
@@ -29469,350 +29469,350 @@
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 748,
+      "offset": 738,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 787,
+      "offset": 777,
       "length": 20,
       "value": "\"⚠️⚠️⚠️\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 853,
+      "offset": 843,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "IntegerLiteral",
-      "offset": 868,
+      "offset": 858,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 1305,
+      "offset": 1295,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 1344,
+      "offset": 1334,
       "length": 20,
       "value": "\"⚠️⚠️⚠️\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 1410,
+      "offset": 1400,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "IntegerLiteral",
-      "offset": 1425,
+      "offset": 1415,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 1700,
+      "offset": 1690,
       "length": 28,
       "value": "\"\/mfd\/V1\/friendRequestLists\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 1731,
+      "offset": 1721,
       "length": 29,
       "value": "\"\/me?include=basic&state=new\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 2229,
+      "offset": 2219,
       "length": 15,
       "value": "\"Request Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 2276,
+      "offset": 2266,
       "length": 20,
       "value": "\"⚠️⚠️⚠️\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 2342,
+      "offset": 2332,
       "length": 15,
       "value": "\"Request Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "IntegerLiteral",
-      "offset": 2365,
+      "offset": 2355,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 2577,
+      "offset": 2567,
       "length": 24,
       "value": "\"Request Encoding Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 2633,
+      "offset": 2623,
       "length": 20,
       "value": "\"⚠️⚠️⚠️\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 2699,
+      "offset": 2689,
       "length": 24,
       "value": "\"Request Encoding Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "IntegerLiteral",
-      "offset": 2731,
+      "offset": 2721,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 2961,
+      "offset": 2951,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 3157,
+      "offset": 3147,
       "length": 9,
       "value": "\"include\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 3259,
+      "offset": 3249,
       "length": 15,
       "value": "\"Include Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "IntegerLiteral",
-      "offset": 3282,
+      "offset": 3272,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 3731,
+      "offset": 3721,
       "length": 14,
       "value": "\"DecodableObj\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 3777,
+      "offset": 3767,
       "length": 20,
       "value": "\"⚠️⚠️⚠️\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 3883,
+      "offset": 3873,
       "length": 19,
       "value": "\"Decode Type Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "IntegerLiteral",
-      "offset": 3910,
+      "offset": 3900,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 4336,
+      "offset": 4326,
       "length": 8,
       "value": "\"error:\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 4404,
+      "offset": 4394,
       "length": 20,
       "value": "\"⚠️⚠️⚠️\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 4740,
+      "offset": 4730,
       "length": 8,
       "value": "\"error:\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 4808,
+      "offset": 4798,
       "length": 20,
       "value": "\"⚠️⚠️⚠️\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 5581,
+      "offset": 5571,
       "length": 28,
       "value": "\"\/mfd\/V1\/friendRequestLists\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 5612,
+      "offset": 5602,
       "length": 14,
       "value": "\"\/me\/friends\/\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 5864,
+      "offset": 5854,
       "length": 15,
       "value": "\"Request Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 5911,
+      "offset": 5901,
       "length": 20,
       "value": "\"⚠️⚠️⚠️\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 5977,
+      "offset": 5967,
       "length": 15,
       "value": "\"Request Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "IntegerLiteral",
-      "offset": 6000,
+      "offset": 5990,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 6084,
+      "offset": 6074,
       "length": 7,
       "value": "\"state\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 6093,
+      "offset": 6083,
       "length": 10,
       "value": "\"accepted\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 6346,
+      "offset": 6336,
       "length": 24,
       "value": "\"Request Encoding Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 6402,
+      "offset": 6392,
       "length": 20,
       "value": "\"⚠️⚠️⚠️\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 6468,
+      "offset": 6458,
       "length": 24,
       "value": "\"Request Encoding Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "IntegerLiteral",
-      "offset": 6500,
+      "offset": 6490,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 7099,
+      "offset": 7089,
       "length": 14,
       "value": "\"DecodableObj\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 7145,
+      "offset": 7135,
       "length": 20,
       "value": "\"⚠️⚠️⚠️\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 7251,
+      "offset": 7241,
       "length": 19,
       "value": "\"Decode Type Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "IntegerLiteral",
-      "offset": 7278,
+      "offset": 7268,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 7560,
+      "offset": 7550,
       "length": 8,
       "value": "\"error:\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 7628,
+      "offset": 7618,
       "length": 20,
       "value": "\"⚠️⚠️⚠️\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 7964,
+      "offset": 7954,
       "length": 8,
       "value": "\"error:\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendRequestLists.swift",
       "kind": "StringLiteral",
-      "offset": 8032,
+      "offset": 8022,
       "length": 20,
       "value": "\"⚠️⚠️⚠️\""
     },
@@ -29861,315 +29861,315 @@
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 709,
+      "offset": 699,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "IntegerLiteral",
-      "offset": 724,
+      "offset": 714,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 1126,
+      "offset": 1116,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "IntegerLiteral",
-      "offset": 1141,
+      "offset": 1131,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 1408,
+      "offset": 1398,
       "length": 28,
       "value": "\"\/mfd\/V1\/requestFriendLists\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 1439,
+      "offset": 1429,
       "length": 33,
       "value": "\"\/me?include=basic&state=pending\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 1930,
+      "offset": 1920,
       "length": 15,
       "value": "\"Request Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 1977,
+      "offset": 1967,
       "length": 20,
       "value": "\"⚠️⚠️⚠️\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 2043,
+      "offset": 2033,
       "length": 15,
       "value": "\"Request Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "IntegerLiteral",
-      "offset": 2066,
+      "offset": 2056,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 2278,
+      "offset": 2268,
       "length": 24,
       "value": "\"Request Encoding Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 2334,
+      "offset": 2324,
       "length": 20,
       "value": "\"⚠️⚠️⚠️\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 2400,
+      "offset": 2390,
       "length": 24,
       "value": "\"Request Encoding Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "IntegerLiteral",
-      "offset": 2432,
+      "offset": 2422,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 2662,
+      "offset": 2652,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 2858,
+      "offset": 2848,
       "length": 9,
       "value": "\"include\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 2960,
+      "offset": 2950,
       "length": 15,
       "value": "\"Include Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "IntegerLiteral",
-      "offset": 2983,
+      "offset": 2973,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 3432,
+      "offset": 3422,
       "length": 14,
       "value": "\"DecodableObj\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 3478,
+      "offset": 3468,
       "length": 20,
       "value": "\"⚠️⚠️⚠️\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 3584,
+      "offset": 3574,
       "length": 19,
       "value": "\"Decode Type Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "IntegerLiteral",
-      "offset": 3611,
+      "offset": 3601,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 4033,
+      "offset": 4023,
       "length": 8,
       "value": "\"error:\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 4101,
+      "offset": 4091,
       "length": 20,
       "value": "\"⚠️⚠️⚠️\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 4437,
+      "offset": 4427,
       "length": 8,
       "value": "\"error:\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 4505,
+      "offset": 4495,
       "length": 20,
       "value": "\"⚠️⚠️⚠️\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 4965,
+      "offset": 4955,
       "length": 28,
       "value": "\"\/mfd\/V1\/requestFriendLists\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 4996,
+      "offset": 4986,
       "length": 13,
       "value": "\"\/me\/friends\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 5237,
+      "offset": 5227,
       "length": 15,
       "value": "\"Request Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 5284,
+      "offset": 5274,
       "length": 20,
       "value": "\"⚠️⚠️⚠️\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 5350,
+      "offset": 5340,
       "length": 15,
       "value": "\"Request Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "IntegerLiteral",
-      "offset": 5373,
+      "offset": 5363,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 5457,
+      "offset": 5447,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 5714,
+      "offset": 5704,
       "length": 24,
       "value": "\"Request Encoding Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 5770,
+      "offset": 5760,
       "length": 20,
       "value": "\"⚠️⚠️⚠️\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 5836,
+      "offset": 5826,
       "length": 24,
       "value": "\"Request Encoding Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "IntegerLiteral",
-      "offset": 5868,
+      "offset": 5858,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 6433,
+      "offset": 6423,
       "length": 14,
       "value": "\"DecodableObj\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 6479,
+      "offset": 6469,
       "length": 20,
       "value": "\"⚠️⚠️⚠️\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 6585,
+      "offset": 6575,
       "length": 19,
       "value": "\"Decode Type Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "IntegerLiteral",
-      "offset": 6612,
+      "offset": 6602,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 6925,
+      "offset": 6915,
       "length": 8,
       "value": "\"error:\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 6993,
+      "offset": 6983,
       "length": 20,
       "value": "\"⚠️⚠️⚠️\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 7329,
+      "offset": 7319,
       "length": 8,
       "value": "\"error:\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+RequestFriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 7397,
+      "offset": 7387,
       "length": 20,
       "value": "\"⚠️⚠️⚠️\""
     },
@@ -30316,182 +30316,182 @@
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 676,
+      "offset": 666,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendLists.swift",
       "kind": "IntegerLiteral",
-      "offset": 691,
+      "offset": 681,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 1064,
+      "offset": 1054,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendLists.swift",
       "kind": "IntegerLiteral",
-      "offset": 1079,
+      "offset": 1069,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 1331,
+      "offset": 1321,
       "length": 21,
       "value": "\"\/mfd\/V1\/friendLists\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 1355,
+      "offset": 1345,
       "length": 23,
       "value": "\"\/me?userInclude=basic\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 1742,
+      "offset": 1732,
       "length": 15,
       "value": "\"Request Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 1789,
+      "offset": 1779,
       "length": 20,
       "value": "\"⚠️⚠️⚠️\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 1855,
+      "offset": 1845,
       "length": 15,
       "value": "\"Request Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendLists.swift",
       "kind": "IntegerLiteral",
-      "offset": 1878,
+      "offset": 1868,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 2090,
+      "offset": 2080,
       "length": 24,
       "value": "\"Request Encoding Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 2146,
+      "offset": 2136,
       "length": 20,
       "value": "\"⚠️⚠️⚠️\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 2212,
+      "offset": 2202,
       "length": 24,
       "value": "\"Request Encoding Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendLists.swift",
       "kind": "IntegerLiteral",
-      "offset": 2244,
+      "offset": 2234,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 2474,
+      "offset": 2464,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 2670,
+      "offset": 2660,
       "length": 9,
       "value": "\"include\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 2772,
+      "offset": 2762,
       "length": 15,
       "value": "\"Include Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendLists.swift",
       "kind": "IntegerLiteral",
-      "offset": 2795,
+      "offset": 2785,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 3230,
+      "offset": 3220,
       "length": 14,
       "value": "\"DecodableObj\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 3276,
+      "offset": 3266,
       "length": 20,
       "value": "\"⚠️⚠️⚠️\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 3382,
+      "offset": 3372,
       "length": 19,
       "value": "\"Decode Type Error\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendLists.swift",
       "kind": "IntegerLiteral",
-      "offset": 3409,
+      "offset": 3399,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 3827,
+      "offset": 3817,
       "length": 8,
       "value": "\"error:\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 3895,
+      "offset": 3885,
       "length": 20,
       "value": "\"⚠️⚠️⚠️\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 4232,
+      "offset": 4222,
       "length": 8,
       "value": "\"error:\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+FriendLists.swift",
       "kind": "StringLiteral",
-      "offset": 4300,
+      "offset": 4290,
       "length": 20,
       "value": "\"⚠️⚠️⚠️\""
     },
@@ -31028,88 +31028,88 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Public\/MIMIKFriend.swift",
+      "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Public\/EdgeClient+Friend.swift",
       "kind": "StringLiteral",
-      "offset": 851,
+      "offset": 847,
       "length": 151,
       "value": "\"\nname: \""
     },
     {
-      "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Public\/MIMIKFriend.swift",
+      "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Public\/EdgeClient+Friend.swift",
       "kind": "StringLiteral",
-      "offset": 875,
+      "offset": 871,
       "length": 5,
       "value": "\"N\/A\""
     },
     {
-      "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Public\/MIMIKFriend.swift",
+      "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Public\/EdgeClient+Friend.swift",
       "kind": "StringLiteral",
-      "offset": 881,
+      "offset": 877,
       "length": 1,
       "value": "\"\nemail: \""
     },
     {
-      "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Public\/MIMIKFriend.swift",
+      "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Public\/EdgeClient+Friend.swift",
       "kind": "StringLiteral",
-      "offset": 901,
+      "offset": 897,
       "length": 5,
       "value": "\"N\/A\""
     },
     {
-      "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Public\/MIMIKFriend.swift",
+      "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Public\/EdgeClient+Friend.swift",
       "kind": "StringLiteral",
-      "offset": 907,
+      "offset": 903,
       "length": 1,
       "value": "\"\nid: \""
     },
     {
-      "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Public\/MIMIKFriend.swift",
+      "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Public\/EdgeClient+Friend.swift",
       "kind": "StringLiteral",
-      "offset": 921,
+      "offset": 917,
       "length": 5,
       "value": "\"N\/A\""
     },
     {
-      "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Public\/MIMIKFriend.swift",
+      "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Public\/EdgeClient+Friend.swift",
       "kind": "StringLiteral",
-      "offset": 927,
+      "offset": 923,
       "length": 1,
       "value": "\"\naccountId: \""
     },
     {
-      "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Public\/MIMIKFriend.swift",
+      "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Public\/EdgeClient+Friend.swift",
       "kind": "StringLiteral",
-      "offset": 955,
+      "offset": 951,
       "length": 5,
       "value": "\"N\/A\""
     },
     {
-      "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Public\/MIMIKFriend.swift",
+      "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Public\/EdgeClient+Friend.swift",
       "kind": "StringLiteral",
-      "offset": 961,
+      "offset": 957,
       "length": 1,
       "value": "\"\nthumbnailURL: \""
     },
     {
-      "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Public\/MIMIKFriend.swift",
+      "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Public\/EdgeClient+Friend.swift",
       "kind": "StringLiteral",
-      "offset": 995,
+      "offset": 991,
       "length": 5,
       "value": "\"N\/A\""
     },
     {
-      "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Public\/MIMIKFriend.swift",
+      "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Public\/EdgeClient+Friend.swift",
       "kind": "StringLiteral",
-      "offset": 1001,
+      "offset": 997,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Public\/MIMIKFriend.swift",
+      "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Public\/EdgeClient+Friend.swift",
       "kind": "StringLiteral",
       "offset": 260,
-      "length": 11,
-      "value": "\"EdgeUser.MIMIKFriend\""
+      "length": 6,
+      "value": "\"EdgeUser.Friend\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+Private.swift",
@@ -31401,105 +31401,105 @@
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+Private.swift",
       "kind": "StringLiteral",
-      "offset": 8578,
+      "offset": 8573,
       "length": 9,
       "value": "\"friends\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+Private.swift",
       "kind": "StringLiteral",
-      "offset": 8673,
+      "offset": 8668,
       "length": 24,
       "value": "\"Empty friends data key\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+Private.swift",
       "kind": "StringLiteral",
-      "offset": 8729,
+      "offset": 8724,
       "length": 20,
       "value": "\"⚠️⚠️⚠️\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+Private.swift",
       "kind": "Array",
-      "offset": 8770,
+      "offset": 8765,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+Private.swift",
       "kind": "StringLiteral",
-      "offset": 8913,
+      "offset": 8903,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+Private.swift",
       "kind": "StringLiteral",
-      "offset": 9002,
+      "offset": 8992,
       "length": 7,
       "value": "\"email\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+Private.swift",
       "kind": "StringLiteral",
-      "offset": 9059,
+      "offset": 9049,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+Private.swift",
       "kind": "StringLiteral",
-      "offset": 9123,
+      "offset": 9113,
       "length": 8,
       "value": "\"avatar\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+Private.swift",
       "kind": "StringLiteral",
-      "offset": 9147,
+      "offset": 9137,
       "length": 12,
       "value": "\"?alt=media\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+Private.swift",
       "kind": "StringLiteral",
-      "offset": 9187,
+      "offset": 9177,
       "length": 9,
       "value": "\"Unknown\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+Private.swift",
       "kind": "StringLiteral",
-      "offset": 9242,
+      "offset": 9232,
       "length": 12,
       "value": "\"attributes\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+Private.swift",
       "kind": "StringLiteral",
-      "offset": 9418,
+      "offset": 9408,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+Private.swift",
       "kind": "StringLiteral",
-      "offset": 9441,
+      "offset": 9431,
       "length": 10,
       "value": "\"nickname\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+Private.swift",
       "kind": "StringLiteral",
-      "offset": 9493,
+      "offset": 9483,
       "length": 7,
       "value": "\"value\""
     },
     {
       "filePath": "\/Users\/rb\/Code\/client-libraries\/ios-edge-user\/EdgeUser\/Peer\/Internal\/EdgeClient+Private.swift",
       "kind": "StringLiteral",
-      "offset": 9512,
+      "offset": 9502,
       "length": 9,
       "value": "\"Unknown\""
     },

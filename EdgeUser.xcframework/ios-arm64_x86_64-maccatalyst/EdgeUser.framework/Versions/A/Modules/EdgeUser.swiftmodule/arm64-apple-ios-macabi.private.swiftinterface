@@ -30,19 +30,19 @@ extension EdgeCore.EdgeClient {
 }
 extension EdgeCore.EdgeClient {
   #if compiler(>=5.3) && $AsyncAwait
-  final public func friends(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization) async -> Swift.Result<[EdgeCore.EdgeClient.MIMIKFriend], Foundation.NSError>
+  final public func friends(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization) async -> Swift.Result<[EdgeCore.EdgeClient.Friend], Foundation.NSError>
   #endif
   #if compiler(>=5.3) && $AsyncAwait
   final public func friendList(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization) async -> Swift.Result<EdgeCore.EdgeClient.FriendList, Foundation.NSError>
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  final public func receivedFriendRequests(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization) async -> Swift.Result<[EdgeCore.EdgeClient.MIMIKFriend], Foundation.NSError>
+  final public func receivedFriendRequests(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization) async -> Swift.Result<[EdgeCore.EdgeClient.Friend], Foundation.NSError>
   #endif
   #if compiler(>=5.3) && $AsyncAwait
   final public func receivedFriendRequestList(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization) async -> Swift.Result<EdgeCore.EdgeClient.FriendRequestList, Foundation.NSError>
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  final public func sentFriendRequests(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization) async -> Swift.Result<[EdgeCore.EdgeClient.MIMIKFriend], Foundation.NSError>
+  final public func sentFriendRequests(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization) async -> Swift.Result<[EdgeCore.EdgeClient.Friend], Foundation.NSError>
   #endif
   #if compiler(>=5.3) && $AsyncAwait
   final public func sentFriendRequestList(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization) async -> Swift.Result<EdgeCore.EdgeClient.RequestFriendList, Foundation.NSError>
@@ -385,7 +385,7 @@ extension EdgeCore.EdgeClient.RequestFriendList {
   public func dictionary() -> [Swift.String : Any]?
 }
 extension EdgeCore.EdgeClient {
-  @objc public class MIMIKFriend : ObjectiveC.NSObject {
+  @objc public class Friend : ObjectiveC.NSObject {
     @objc public var name: Swift.String?
     @objc public var email: Swift.String?
     @objc public var id: Swift.String?
@@ -581,14 +581,14 @@ extension EdgeCore.EdgeClient {
   }
 }
 extension EdgeCore.EdgeClient {
-  public enum MIMIKFriendState {
+  public enum FriendState {
     case unknown
     case currentList
     case incomingList
     case outgoingList
     case yourAccount
     case notListed
-    public static func == (a: EdgeCore.EdgeClient.MIMIKFriendState, b: EdgeCore.EdgeClient.MIMIKFriendState) -> Swift.Bool
+    public static func == (a: EdgeCore.EdgeClient.FriendState, b: EdgeCore.EdgeClient.FriendState) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
       get
@@ -796,8 +796,8 @@ extension EdgeCore.EdgeClient.Thumbnail.CodingKeys : Swift.RawRepresentable {}
 extension EdgeCore.EdgeClient.FriendRequests.CodingKeys : Swift.Equatable {}
 extension EdgeCore.EdgeClient.FriendRequests.CodingKeys : Swift.Hashable {}
 extension EdgeCore.EdgeClient.FriendRequests.CodingKeys : Swift.RawRepresentable {}
-extension EdgeCore.EdgeClient.MIMIKFriendState : Swift.Equatable {}
-extension EdgeCore.EdgeClient.MIMIKFriendState : Swift.Hashable {}
+extension EdgeCore.EdgeClient.FriendState : Swift.Equatable {}
+extension EdgeCore.EdgeClient.FriendState : Swift.Hashable {}
 extension EdgeCore.EdgeClient.RequestFriendList.CodingKeys : Swift.Equatable {}
 extension EdgeCore.EdgeClient.RequestFriendList.CodingKeys : Swift.Hashable {}
 extension EdgeCore.EdgeClient.RequestFriendList.CodingKeys : Swift.RawRepresentable {}

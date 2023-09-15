@@ -305,8 +305,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 @class NSString;
 
-SWIFT_CLASS("_TtCE8EdgeUserC8EdgeCore10EdgeClient11MIMIKFriend")
-@interface MIMIKFriend : NSObject
+SWIFT_CLASS("_TtCE8EdgeUserC8EdgeCore10EdgeClient6Friend")
+@interface Friend : NSObject
 @property (nonatomic, copy) NSString * _Nullable name;
 @property (nonatomic, copy) NSString * _Nullable email;
 @property (nonatomic, copy) NSString * _Nullable id;
