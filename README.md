@@ -69,8 +69,8 @@ use_frameworks!
 inhibit_all_warnings!
 
 def mimik
-  pod 'EdgeCore', '5.0.0'
-  pod 'EdgeUser', '5.0.0'
+  pod 'EdgeCore', '5.1.0'
+  pod 'EdgeUser', '5.1.0'
 end
 
 target '{target}' do
