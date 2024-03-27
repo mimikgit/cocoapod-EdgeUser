@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "EdgeUser"
-  s.version      = "5.1.0"
+  s.version      = "5.3.2"
   s.summary      = "mimik user client library"
 
   s.description  = <<-DESC
@@ -25,8 +25,8 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = "EdgeUser.xcframework"
 
-  s.dependency 'EdgeCore', '~> 5.1.0'
-  s.dependency 'Alamofire', '~> 5.8.0'
+  s.dependency 'EdgeCore', '~> 5.3.2'
+  s.dependency 'Alamofire', '~> 5.8.1'
   s.dependency 'SwiftyJSON', '~> 5.0.1'
 
   s.platform = 'ios', '15.0'

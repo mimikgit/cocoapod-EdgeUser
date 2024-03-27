@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name EdgeUser
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name EdgeUser
 import Alamofire
 import CoreLocation
 import EdgeCore
@@ -27,35 +26,6 @@ extension EdgeCore.EdgeClient.mPO {
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
-}
-extension EdgeCore.EdgeClient {
-  #if compiler(>=5.3) && $AsyncAwait
-  final public func friends(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization) async -> Swift.Result<[EdgeCore.EdgeClient.mFD.Friend], Foundation.NSError>
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  final public func friendList(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization) async -> Swift.Result<EdgeCore.EdgeClient.mFD.FriendList, Foundation.NSError>
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  final public func receivedFriendRequests(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization) async -> Swift.Result<[EdgeCore.EdgeClient.mFD.Friend], Foundation.NSError>
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  final public func receivedFriendRequestList(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization) async -> Swift.Result<EdgeCore.EdgeClient.mFD.FriendRequestList, Foundation.NSError>
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  final public func sentFriendRequests(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization) async -> Swift.Result<[EdgeCore.EdgeClient.mFD.Friend], Foundation.NSError>
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  final public func sentFriendRequestList(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization) async -> Swift.Result<EdgeCore.EdgeClient.mFD.RequestFriendList, Foundation.NSError>
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  final public func requestFriendship(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization, friendId: Swift.String) async -> Swift.Result<EdgeCore.EdgeClient.mPO.NewUser, Foundation.NSError>
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  final public func acceptFriendship(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization, friendId: Swift.String) async -> Swift.Result<EdgeCore.EdgeClient.mFD.FriendRequestUpdateState, Foundation.NSError>
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  final public func cancelFriendship(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization, friendId: Swift.String) async -> Swift.Result<Swift.Bool, Foundation.NSError>
-  #endif
 }
 extension EdgeCore.EdgeClient.mPO {
   public struct UserLocation : Swift.Codable {
@@ -92,27 +62,6 @@ extension EdgeCore.EdgeClient.mFD {
     public var createdAt: Foundation.Date?
     public var updatedAt: Foundation.Date?
     public init(owner: EdgeCore.EdgeClient.mPO.NewUser?, _id: Swift.String?, _self: Swift.String?, requests: [EdgeCore.EdgeClient.mFD.FriendRequests]?, createdAt: Foundation.Date?, updatedAt: Foundation.Date?)
-    public enum CodingKeys : Swift.String, Swift.CodingKey {
-      case owner
-      case _id
-      case _self
-      case requests
-      case createdAt
-      case updatedAt
-      public init?(rawValue: Swift.String)
-      public init?(stringValue: Swift.String)
-      public init?(intValue: Swift.Int)
-      public typealias RawValue = Swift.String
-      public var intValue: Swift.Int? {
-        get
-      }
-      public var rawValue: Swift.String {
-        get
-      }
-      public var stringValue: Swift.String {
-        get
-      }
-    }
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
@@ -143,84 +92,7 @@ extension EdgeCore.EdgeClient.mPO {
     public var updatedAt: Foundation.Date?
     public var appIds: [Swift.String]?
     public init(_id: Swift.String?, externalIds: [EdgeCore.EdgeClient.JSONValue]?, email: Swift.String?, consents: [EdgeCore.EdgeClient.mPO.Consent]?, ssn: Swift.String?, name: EdgeCore.EdgeClient.mPO.Name?, displayName: Swift.String?, nickName: Swift.String?, preferredLanguage: Swift.String?, locale: Swift.String?, timeZone: Swift.String?, address: EdgeCore.EdgeClient.mPO.Address?, phoneNumber: Swift.String?, gender: Swift.String?, dateOfBirth: Foundation.Date?, location: EdgeCore.EdgeClient.mPO.UserLocation?, attributes: [EdgeCore.EdgeClient.mPO.UserItem]?, references: [EdgeCore.EdgeClient.mPO.Reference]?, friendListId: Swift.String?, avatar: Swift.String?, createdAt: Foundation.Date?, updatedAt: Foundation.Date?, appIds: [Swift.String]?)
-    public enum CodingKeys : Swift.String, Swift.CodingKey {
-      case _id
-      case externalIds
-      case email
-      case consents
-      case ssn
-      case name
-      case displayName
-      case nickName
-      case preferredLanguage
-      case locale
-      case timeZone
-      case address
-      case phoneNumber
-      case gender
-      case dateOfBirth
-      case location
-      case attributes
-      case references
-      case friendListId
-      case avatar
-      case createdAt
-      case updatedAt
-      case appIds
-      public init?(rawValue: Swift.String)
-      public init?(stringValue: Swift.String)
-      public init?(intValue: Swift.Int)
-      public typealias RawValue = Swift.String
-      public var intValue: Swift.Int? {
-        get
-      }
-      public var rawValue: Swift.String {
-        get
-      }
-      public var stringValue: Swift.String {
-        get
-      }
-    }
-    public enum Attribute : Swift.String, Swift.CaseIterable {
-      case firstName
-      case lastName
-      case job
-      case streetName
-      case city
-      case state
-      case zipCode
-      public static var count: Swift.Int {
-        get
-      }
-      public init?(rawValue: Swift.String)
-      public typealias AllCases = [EdgeCore.EdgeClient.mPO.User.Attribute]
-      public typealias RawValue = Swift.String
-      public static var allCases: [EdgeCore.EdgeClient.mPO.User.Attribute] {
-        get
-      }
-      public var rawValue: Swift.String {
-        get
-      }
-    }
     public func attributeForKey(key: Swift.String) -> Swift.String?
-    public func hasAllAttributes() -> Swift.Bool
-    public func encode(to encoder: any Swift.Encoder) throws
-    public init(from decoder: any Swift.Decoder) throws
-  }
-}
-extension EdgeCore.EdgeClient.mFD {
-  public struct FriendRequestState : Swift.Codable {
-    public enum State : Swift.String, Swift.Codable {
-      case new
-      case accepted
-      public init?(rawValue: Swift.String)
-      public typealias RawValue = Swift.String
-      public var rawValue: Swift.String {
-        get
-      }
-    }
-    public var state: EdgeCore.EdgeClient.mFD.FriendRequestState.State?
-    public init(state: EdgeCore.EdgeClient.mFD.FriendRequestState.State?)
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
@@ -243,32 +115,6 @@ extension EdgeCore.EdgeClient.mPO {
     public var createdAt: Foundation.Date
     public var _id: Foundation.UUID?
     public init(contactMethod: Swift.String, contactPoint: Swift.String, source: EdgeCore.EdgeClient.mPO.Consent.Source, createdAt: Foundation.Date, _id: Foundation.UUID?)
-    public enum CodingKeys : Swift.String, Swift.CodingKey {
-      case contactMethod
-      case contactPoint
-      case source
-      case createdAt
-      case _id
-      public init?(rawValue: Swift.String)
-      public init?(stringValue: Swift.String)
-      public init?(intValue: Swift.Int)
-      public typealias RawValue = Swift.String
-      public var intValue: Swift.Int? {
-        get
-      }
-      public var rawValue: Swift.String {
-        get
-      }
-      public var stringValue: Swift.String {
-        get
-      }
-    }
-    public func encode(to encoder: any Swift.Encoder) throws
-    public init(from decoder: any Swift.Decoder) throws
-  }
-}
-extension EdgeCore.EdgeClient {
-  public struct mTS : Swift.Codable {
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
@@ -279,24 +125,6 @@ extension EdgeCore.EdgeClient.mFD {
     public var _id: Swift.String?
     public var state: Swift.String?
     public init(addedAt: Foundation.Date?, _id: Swift.String?, state: Swift.String?)
-    public enum CodingKeys : Swift.String, Swift.CodingKey {
-      case addedAt
-      case _id
-      case state
-      public init?(rawValue: Swift.String)
-      public init?(stringValue: Swift.String)
-      public init?(intValue: Swift.Int)
-      public typealias RawValue = Swift.String
-      public var intValue: Swift.Int? {
-        get
-      }
-      public var rawValue: Swift.String {
-        get
-      }
-      public var stringValue: Swift.String {
-        get
-      }
-    }
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
@@ -306,19 +134,11 @@ extension EdgeCore.EdgeClient {
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
-}
-extension EdgeCore.EdgeClient.mFD {
-  public struct FriendRequestUpdateState : Swift.Codable {
-    public enum State : Swift.String, Swift.Codable {
-      case accepted
-      public init?(rawValue: Swift.String)
-      public typealias RawValue = Swift.String
-      public var rawValue: Swift.String {
-        get
-      }
-    }
-    public var state: EdgeCore.EdgeClient.mFD.FriendRequestUpdateState.State?
-    public init(state: EdgeCore.EdgeClient.mFD.FriendRequestUpdateState.State?)
+  public struct mPO : Swift.Codable {
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct mTS : Swift.Codable {
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
@@ -332,33 +152,12 @@ extension EdgeCore.EdgeClient.mFD {
     public var owner: EdgeCore.EdgeClient.mPO.NewUser?
     public var _id: Swift.String?
     public init(createdAt: Foundation.Date?, updatedAt: Foundation.Date?, _self: Swift.String?, friends: [EdgeCore.EdgeClient.mFD.Friends]?, owner: EdgeCore.EdgeClient.mPO.NewUser?, _id: Swift.String?)
-    public enum CodingKeys : Swift.String, Swift.CodingKey {
-      case createdAt
-      case updatedAt
-      case _self
-      case friends
-      case owner
-      case _id
-      public init?(rawValue: Swift.String)
-      public init?(stringValue: Swift.String)
-      public init?(intValue: Swift.Int)
-      public typealias RawValue = Swift.String
-      public var intValue: Swift.Int? {
-        get
-      }
-      public var rawValue: Swift.String {
-        get
-      }
-      public var stringValue: Swift.String {
-        get
-      }
-    }
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
 }
 extension EdgeCore.EdgeClient.mFD {
-  public struct Friend {
+  public struct Friend : Swift.Codable {
     public var name: Swift.String?
     public var email: Swift.String?
     public var id: Swift.String?
@@ -379,6 +178,8 @@ extension EdgeCore.EdgeClient.mFD {
     }
     public init(name: Swift.String?, email: Swift.String?, id: Swift.String?, accountId: Swift.String?, thumbnailURL: Swift.String?)
     public func description() -> Swift.String
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
   }
 }
 extension EdgeCore.EdgeClient.mPO {
@@ -402,39 +203,80 @@ extension EdgeCore.EdgeClient.mPO {
     public init(from decoder: any Swift.Decoder) throws
   }
 }
-extension EdgeCore.EdgeClient {
+extension EdgeCore.EdgeClient : EdgeCore.EdgeUserClient {
+  public typealias MPOUser = EdgeCore.EdgeClient.mPO.User
+  public typealias MPOUserItem = EdgeCore.EdgeClient.mPO.UserItem
+  public typealias MPOUserUpdate = EdgeCore.EdgeClient.mPO.UserUpdate
+  public typealias MPONewConsent = EdgeCore.EdgeClient.mPO.NewConsent
+  public typealias MPOPlace = EdgeCore.EdgeClient.mPO.Place
+  public typealias MFDFriendList = EdgeCore.EdgeClient.mFD.FriendList
+  public typealias MFDFriend = EdgeCore.EdgeClient.mFD.Friend
+  public typealias MFDFriendRequestList = EdgeCore.EdgeClient.mFD.FriendRequestList
+  public typealias MFDRequestFriendList = EdgeCore.EdgeClient.mFD.RequestFriendList
   #if compiler(>=5.3) && $AsyncAwait
-  final public func userAvatarLegacy(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization, profileUser: EdgeCore.EdgeClient.mPO.User) async -> Swift.Result<UIKit.UIImage, Foundation.NSError>
+  final public func addUserProfileNotificationsConsent(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization, consent: EdgeCore.EdgeClient.mPO.NewConsent) async -> Swift.Result<EdgeCore.EdgeClient.mPO.User, Foundation.NSError>
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  final public func updateUserAvatarLegacy(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization, user: EdgeCore.EdgeClient.mPO.User, image: UIKit.UIImage, attributeKey: Swift.String = "image", targetSize: CoreFoundation.CGSize = CGSize(width: 300.0, height: 300.0), compressionQuality: CoreFoundation.CGFloat = 0.5, bytesLimit: Swift.Int = 75_000) async -> Swift.Result<EdgeCore.EdgeClient.mPO.User, Foundation.NSError>
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  final public func userAvatarLegacyAttribute(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization, profileUser: EdgeCore.EdgeClient.mPO.User, attributeKey: Swift.String) async -> Swift.Result<UIKit.UIImage, Foundation.NSError>
-  #endif
-}
-extension EdgeCore.EdgeClient {
-  #if compiler(>=5.3) && $AsyncAwait
-  final public func userProfile(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization) async -> Swift.Result<EdgeCore.EdgeClient.mPO.User, Foundation.NSError>
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  final public func updateUserProfile(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization, user: EdgeCore.EdgeClient.mPO.User, update: EdgeCore.EdgeClient.mPO.UserUpdate) async -> Swift.Result<EdgeCore.EdgeClient.mPO.User, Foundation.NSError>
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  final public func addUserProfileNotificationsConsent(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization, user: EdgeCore.EdgeClient.mPO.User, consent: EdgeCore.EdgeClient.mPO.NewConsent) async -> Swift.Result<EdgeCore.EdgeClient.mPO.User, Foundation.NSError>
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  final public func deleteUserProfileNotificationsConsent(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization, user: EdgeCore.EdgeClient.mPO.User, consentId: Swift.String) async -> Swift.Result<Swift.Bool, Foundation.NSError>
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  final public func updateUserProfileAttributes(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization, user: EdgeCore.EdgeClient.mPO.User, attributes: [EdgeCore.EdgeClient.mPO.UserItem]) async -> Swift.Result<EdgeCore.EdgeClient.mPO.User, Foundation.NSError>
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  final public func updateUserProfileProperties(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization, properties: [Swift.String : Any]) async -> Swift.Result<EdgeCore.EdgeClient.mPO.User, Foundation.NSError>
+  final public func deleteUserProfileNotificationsConsent(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization, consentId: Swift.String) async -> Swift.Result<Swift.Void, Foundation.NSError>
   #endif
   #if compiler(>=5.3) && $AsyncAwait
   final public func findUser(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization, email: Swift.String) async -> Swift.Result<EdgeCore.EdgeClient.mPO.User, Foundation.NSError>
   #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func updateUserProfile(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization, update: EdgeCore.EdgeClient.mPO.UserUpdate) async -> Swift.Result<EdgeCore.EdgeClient.mPO.User, Foundation.NSError>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func updateUserProfileProperties(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization, parameters: [Swift.String : Any]) async -> Swift.Result<EdgeCore.EdgeClient.mPO.User, Foundation.NSError>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func updateUserProfileAttributes(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization, attributes: [EdgeCore.EdgeClient.mPO.UserItem]) async -> Swift.Result<EdgeCore.EdgeClient.mPO.User, Foundation.NSError>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func userProfile(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization) async -> Swift.Result<EdgeCore.EdgeClient.mPO.User, Foundation.NSError>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func updateUserAvatarLegacy(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization, profileUser: EdgeCore.EdgeClient.mPO.User, image: UIKit.UIImage, attributeKey: Swift.String?, targetSize: CoreFoundation.CGSize?, compressionQuality: CoreFoundation.CGFloat?, bytesLimit: Swift.Int?) async -> Swift.Result<EdgeCore.EdgeClient.mPO.User, Foundation.NSError>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func userAvatarLegacy(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization, profileUser: EdgeCore.EdgeClient.mPO.User) async -> Swift.Result<UIKit.UIImage, Foundation.NSError>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func userAvatarLegacyAttribute(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization, profileUser: EdgeCore.EdgeClient.mPO.User, attributeKey: Swift.String) async -> Swift.Result<UIKit.UIImage, Foundation.NSError>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func addressSuggestions(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization, address: Swift.String, maxSuggestions: Swift.Int?, language: Swift.String?, countries: [Swift.String]?, geoLocation: CoreLocation.CLLocation? = nil, geoFence: (southWest: CoreLocation.CLLocation, northEast: CoreLocation.CLLocation)? = nil) async -> Swift.Result<SwiftyJSON.JSON, Foundation.NSError>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func places(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization, address: Swift.String, maxPlaces: Swift.Int?, language: Swift.String?, countries: [Swift.String]?, geoLocation: CoreLocation.CLLocation? = nil, geoFence: (southWest: CoreLocation.CLLocation, northEast: CoreLocation.CLLocation)? = nil) async -> Swift.Result<[EdgeCore.EdgeClient.mPO.Place], Foundation.NSError>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func friends(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization) async -> Swift.Result<[EdgeCore.EdgeClient.mFD.Friend], Foundation.NSError>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func friendList(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization) async -> Swift.Result<EdgeCore.EdgeClient.mFD.FriendList, Foundation.NSError>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func receivedFriendRequests(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization) async -> Swift.Result<[EdgeCore.EdgeClient.mFD.Friend], Foundation.NSError>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func receivedFriendRequestList(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization) async -> Swift.Result<EdgeCore.EdgeClient.mFD.FriendRequestList, Foundation.NSError>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func sentFriendRequests(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization) async -> Swift.Result<[EdgeCore.EdgeClient.mFD.Friend], Foundation.NSError>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func sentFriendRequestList(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization) async -> Swift.Result<EdgeCore.EdgeClient.mFD.RequestFriendList, Foundation.NSError>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func requestFriendship(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization, friendId: Swift.String) async -> Swift.Result<EdgeCore.EdgeClient.mPO.NewUser, Foundation.NSError>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func acceptFriendship(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization, friendId: Swift.String) async -> Swift.Result<Swift.Void, Foundation.NSError>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func cancelFriendship(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization, friendId: Swift.String) async -> Swift.Result<Swift.Void, Foundation.NSError>
+  #endif
+  public typealias MPONewUser = EdgeCore.EdgeClient.mPO.NewUser
 }
 extension EdgeCore.EdgeClient.mFD {
   public struct Friends : Swift.Codable {
@@ -443,25 +285,6 @@ extension EdgeCore.EdgeClient.mFD {
     public var _self: Swift.String?
     public var _id: Swift.String?
     public init(addedAt: Swift.String?, origin: Swift.String?, _self: Swift.String?, _id: Swift.String?)
-    public enum CodingKeys : Swift.String, Swift.CodingKey {
-      case addedAt
-      case origin
-      case _self
-      case _id
-      public init?(rawValue: Swift.String)
-      public init?(stringValue: Swift.String)
-      public init?(intValue: Swift.Int)
-      public typealias RawValue = Swift.String
-      public var intValue: Swift.Int? {
-        get
-      }
-      public var rawValue: Swift.String {
-        get
-      }
-      public var stringValue: Swift.String {
-        get
-      }
-    }
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
@@ -471,23 +294,6 @@ extension EdgeCore.EdgeClient.mPO {
     public var _id: Swift.String
     public var _self: Swift.String?
     public init(_id: Swift.String, _self: Swift.String?)
-    public enum CodingKeys : Swift.String, Swift.CodingKey {
-      case _id
-      case _self
-      public init?(rawValue: Swift.String)
-      public init?(stringValue: Swift.String)
-      public init?(intValue: Swift.Int)
-      public typealias RawValue = Swift.String
-      public var intValue: Swift.Int? {
-        get
-      }
-      public var rawValue: Swift.String {
-        get
-      }
-      public var stringValue: Swift.String {
-        get
-      }
-    }
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
@@ -501,27 +307,6 @@ extension EdgeCore.EdgeClient.mTS {
     public var owner: EdgeCore.EdgeClient.JSONValue
     public var image: Swift.String
     public init(_id: Swift.String?, _self: Swift.String?, createdAt: Foundation.Date?, updatedAt: Foundation.Date?, owner: EdgeCore.EdgeClient.JSONValue, image: Swift.String)
-    public enum CodingKeys : Swift.String, Swift.CodingKey {
-      case _id
-      case _self
-      case createdAt
-      case updatedAt
-      case owner
-      case image
-      public init?(rawValue: Swift.String)
-      public init?(stringValue: Swift.String)
-      public init?(intValue: Swift.Int)
-      public typealias RawValue = Swift.String
-      public var intValue: Swift.Int? {
-        get
-      }
-      public var rawValue: Swift.String {
-        get
-      }
-      public var stringValue: Swift.String {
-        get
-      }
-    }
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
@@ -532,30 +317,6 @@ extension EdgeCore.EdgeClient.mFD {
     public var _id: Swift.String?
     public var state: Swift.String?
     public init(addedAt: Foundation.Date?, _id: Swift.String?, state: Swift.String?)
-    public enum CodingKeys : Swift.String, Swift.CodingKey {
-      case addedAt
-      case _id
-      case state
-      public init?(rawValue: Swift.String)
-      public init?(stringValue: Swift.String)
-      public init?(intValue: Swift.Int)
-      public typealias RawValue = Swift.String
-      public var intValue: Swift.Int? {
-        get
-      }
-      public var rawValue: Swift.String {
-        get
-      }
-      public var stringValue: Swift.String {
-        get
-      }
-    }
-    public func encode(to encoder: any Swift.Encoder) throws
-    public init(from decoder: any Swift.Decoder) throws
-  }
-}
-extension EdgeCore.EdgeClient {
-  public struct mPO : Swift.Codable {
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
@@ -573,14 +334,6 @@ extension EdgeCore.EdgeClient.mPO {
     public init(from decoder: any Swift.Decoder) throws
   }
 }
-extension EdgeCore.EdgeClient {
-  #if compiler(>=5.3) && $AsyncAwait
-  final public func addressSuggestions(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization, address: Swift.String, maxSuggestions: Swift.Int?, language: Swift.String?, countries: [Swift.String]?, geoLocation: CoreLocation.CLLocation? = nil, geoFence: (southWest: CoreLocation.CLLocation, northEast: CoreLocation.CLLocation)? = nil) async -> Swift.Result<SwiftyJSON.JSON, Foundation.NSError>
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  final public func places(service: EdgeCore.EdgeClient.Service, authorization: EdgeCore.EdgeClient.Authorization, address: Swift.String, maxPlaces: Swift.Int?, language: Swift.String?, countries: [Swift.String]?, geoLocation: CoreLocation.CLLocation? = nil, geoFence: (southWest: CoreLocation.CLLocation, northEast: CoreLocation.CLLocation)? = nil) async -> Swift.Result<[EdgeCore.EdgeClient.mPO.Place], Foundation.NSError>
-  #endif
-}
 extension EdgeCore.EdgeClient.mFD {
   public struct RequestFriendList : Swift.Codable {
     public var owner: EdgeCore.EdgeClient.mPO.NewUser?
@@ -590,27 +343,6 @@ extension EdgeCore.EdgeClient.mFD {
     public var updatedAt: Foundation.Date?
     public var _id: Swift.String?
     public init(owner: EdgeCore.EdgeClient.mPO.NewUser?, _self: Swift.String?, requests: [EdgeCore.EdgeClient.mFD.RequestFriends]?, createdAt: Foundation.Date?, updatedAt: Foundation.Date?, _id: Swift.String?)
-    public enum CodingKeys : Swift.String, Swift.CodingKey {
-      case owner
-      case _self
-      case requests
-      case createdAt
-      case updatedAt
-      case _id
-      public init?(rawValue: Swift.String)
-      public init?(stringValue: Swift.String)
-      public init?(intValue: Swift.Int)
-      public typealias RawValue = Swift.String
-      public var intValue: Swift.Int? {
-        get
-      }
-      public var rawValue: Swift.String {
-        get
-      }
-      public var stringValue: Swift.String {
-        get
-      }
-    }
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
@@ -652,26 +384,6 @@ extension EdgeCore.EdgeClient.mPO {
     public var _id: Swift.String?
     public var _self: Swift.String
     public init(serverType: Swift.String?, resourceName: Swift.String, include: Swift.String?, _id: Swift.String?, _self: Swift.String)
-    public enum CodingKeys : Swift.String, Swift.CodingKey {
-      case serverType
-      case resourceName
-      case include
-      case _id
-      case _self
-      public init?(rawValue: Swift.String)
-      public init?(stringValue: Swift.String)
-      public init?(intValue: Swift.Int)
-      public typealias RawValue = Swift.String
-      public var intValue: Swift.Int? {
-        get
-      }
-      public var rawValue: Swift.String {
-        get
-      }
-      public var stringValue: Swift.String {
-        get
-      }
-    }
     public func encode(to encoder: any Swift.Encoder) throws
     public init(from decoder: any Swift.Decoder) throws
   }
@@ -692,53 +404,11 @@ extension EdgeCore.EdgeClient.mPO {
 extension EdgeCore.EdgeClient.mPO.UserLocation.ModelType : Swift.Equatable {}
 extension EdgeCore.EdgeClient.mPO.UserLocation.ModelType : Swift.Hashable {}
 extension EdgeCore.EdgeClient.mPO.UserLocation.ModelType : Swift.RawRepresentable {}
-extension EdgeCore.EdgeClient.mFD.FriendRequestList.CodingKeys : Swift.Equatable {}
-extension EdgeCore.EdgeClient.mFD.FriendRequestList.CodingKeys : Swift.Hashable {}
-extension EdgeCore.EdgeClient.mFD.FriendRequestList.CodingKeys : Swift.RawRepresentable {}
-extension EdgeCore.EdgeClient.mPO.User.CodingKeys : Swift.Equatable {}
-extension EdgeCore.EdgeClient.mPO.User.CodingKeys : Swift.Hashable {}
-extension EdgeCore.EdgeClient.mPO.User.CodingKeys : Swift.RawRepresentable {}
-extension EdgeCore.EdgeClient.mPO.User.Attribute : Swift.Equatable {}
-extension EdgeCore.EdgeClient.mPO.User.Attribute : Swift.Hashable {}
-extension EdgeCore.EdgeClient.mPO.User.Attribute : Swift.RawRepresentable {}
-extension EdgeCore.EdgeClient.mFD.FriendRequestState.State : Swift.Equatable {}
-extension EdgeCore.EdgeClient.mFD.FriendRequestState.State : Swift.Hashable {}
-extension EdgeCore.EdgeClient.mFD.FriendRequestState.State : Swift.RawRepresentable {}
 extension EdgeCore.EdgeClient.mPO.Consent.Source : Swift.Equatable {}
 extension EdgeCore.EdgeClient.mPO.Consent.Source : Swift.Hashable {}
 extension EdgeCore.EdgeClient.mPO.Consent.Source : Swift.RawRepresentable {}
-extension EdgeCore.EdgeClient.mPO.Consent.CodingKeys : Swift.Equatable {}
-extension EdgeCore.EdgeClient.mPO.Consent.CodingKeys : Swift.Hashable {}
-extension EdgeCore.EdgeClient.mPO.Consent.CodingKeys : Swift.RawRepresentable {}
-extension EdgeCore.EdgeClient.mFD.RequestFriends.CodingKeys : Swift.Equatable {}
-extension EdgeCore.EdgeClient.mFD.RequestFriends.CodingKeys : Swift.Hashable {}
-extension EdgeCore.EdgeClient.mFD.RequestFriends.CodingKeys : Swift.RawRepresentable {}
-extension EdgeCore.EdgeClient.mFD.FriendRequestUpdateState.State : Swift.Equatable {}
-extension EdgeCore.EdgeClient.mFD.FriendRequestUpdateState.State : Swift.Hashable {}
-extension EdgeCore.EdgeClient.mFD.FriendRequestUpdateState.State : Swift.RawRepresentable {}
-extension EdgeCore.EdgeClient.mFD.FriendList.CodingKeys : Swift.Equatable {}
-extension EdgeCore.EdgeClient.mFD.FriendList.CodingKeys : Swift.Hashable {}
-extension EdgeCore.EdgeClient.mFD.FriendList.CodingKeys : Swift.RawRepresentable {}
 extension EdgeCore.EdgeClient.mFD.Friend.State : Swift.Equatable {}
 extension EdgeCore.EdgeClient.mFD.Friend.State : Swift.Hashable {}
 extension EdgeCore.EdgeClient.mPO.NewConsent.Source : Swift.Equatable {}
 extension EdgeCore.EdgeClient.mPO.NewConsent.Source : Swift.Hashable {}
 extension EdgeCore.EdgeClient.mPO.NewConsent.Source : Swift.RawRepresentable {}
-extension EdgeCore.EdgeClient.mFD.Friends.CodingKeys : Swift.Equatable {}
-extension EdgeCore.EdgeClient.mFD.Friends.CodingKeys : Swift.Hashable {}
-extension EdgeCore.EdgeClient.mFD.Friends.CodingKeys : Swift.RawRepresentable {}
-extension EdgeCore.EdgeClient.mPO.NewUser.CodingKeys : Swift.Equatable {}
-extension EdgeCore.EdgeClient.mPO.NewUser.CodingKeys : Swift.Hashable {}
-extension EdgeCore.EdgeClient.mPO.NewUser.CodingKeys : Swift.RawRepresentable {}
-extension EdgeCore.EdgeClient.mTS.Thumbnail.CodingKeys : Swift.Equatable {}
-extension EdgeCore.EdgeClient.mTS.Thumbnail.CodingKeys : Swift.Hashable {}
-extension EdgeCore.EdgeClient.mTS.Thumbnail.CodingKeys : Swift.RawRepresentable {}
-extension EdgeCore.EdgeClient.mFD.FriendRequests.CodingKeys : Swift.Equatable {}
-extension EdgeCore.EdgeClient.mFD.FriendRequests.CodingKeys : Swift.Hashable {}
-extension EdgeCore.EdgeClient.mFD.FriendRequests.CodingKeys : Swift.RawRepresentable {}
-extension EdgeCore.EdgeClient.mFD.RequestFriendList.CodingKeys : Swift.Equatable {}
-extension EdgeCore.EdgeClient.mFD.RequestFriendList.CodingKeys : Swift.Hashable {}
-extension EdgeCore.EdgeClient.mFD.RequestFriendList.CodingKeys : Swift.RawRepresentable {}
-extension EdgeCore.EdgeClient.mPO.Reference.CodingKeys : Swift.Equatable {}
-extension EdgeCore.EdgeClient.mPO.Reference.CodingKeys : Swift.Hashable {}
-extension EdgeCore.EdgeClient.mPO.Reference.CodingKeys : Swift.RawRepresentable {}
