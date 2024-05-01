@@ -9,11 +9,16 @@
 Pod::Spec.new do |s|
 
   s.name         = "EdgeUser"
-  s.version      = "5.3.2"
+  s.version      = "5.4.0"
   s.summary      = "mimik user client library"
 
   s.description  = <<-DESC
- EdgeUser client library can help you interact with the following mimik services: Profile, Peer, Thumbnail and Places.
+ The purpose of the mimik Client Library for iOS is to provide a programmatic way to work with the edgeEngine Runtime to access information about the mobile device on which the application is running, as well as mobile devices running within a cluster of mobile devices that are hosting the edgeEngine Runtime. Also, to allow developers to use edge microservices running within a particular cluster.
+
+The mimik Client Library for iOS suite consists of three individual cocoapod components:
+    - EdgeCore
+    - EdgeEngine (or EdgeEngineDeveloper)
+    - EdgeUser
   DESC
 
   s.homepage     = "https://github.com/mimikgit/cocoapod-EdgeUser"
@@ -25,9 +30,9 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = "EdgeUser.xcframework"
 
-  s.dependency 'EdgeCore', '~> 5.3.2'
-  s.dependency 'Alamofire', '~> 5.8.1'
-  s.dependency 'SwiftyJSON', '~> 5.0.1'
+  s.dependency 'EdgeCore', '~> 5.4.0'
+  s.dependency 'Alamofire', '~> 5.9.1'
+  s.dependency 'SwiftyJSON', '~> 5.0.2'
 
   s.platform = 'ios', '15.0'
 end
