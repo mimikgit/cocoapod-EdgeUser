@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "EdgeUser"
-  s.version      = "5.4.0"
+  s.version      = "5.5.0"
   s.summary      = "mimik user client library"
 
   s.description  = <<-DESC
@@ -30,7 +30,7 @@ The mimik Client Library for iOS suite consists of three individual cocoapod com
 
   s.vendored_frameworks = "EdgeUser.xcframework"
 
-  s.dependency 'EdgeCore', '~> 5.4.0'
+  s.dependency 'EdgeCore', '~> 5.5.0'
   s.dependency 'Alamofire', '~> 5.9.1'
   s.dependency 'SwiftyJSON', '~> 5.0.2'
 
